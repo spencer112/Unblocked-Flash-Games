@@ -57,7 +57,7 @@ body, h1, h3, button, .label{
   color:white;
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1360px) {
   #colorButton, #slideContainer, #Labels, #Contacts{
     display:none;
   }

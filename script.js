@@ -147,6 +147,7 @@ window.onload = function(){
   gameContainer = document.getElementById("Game");
   title = document.getElementById("title");
   elements = document.querySelectorAll("body, h1, h3, button");
+  console.log(window.innerWidth);
 };
 
 

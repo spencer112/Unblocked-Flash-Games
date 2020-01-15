@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unblocked Flash Games</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="icon" href="goose.png">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Games, Unblocked, Flash, games, unblocked, flash">
+  </head>
+  <body id="body">
+    <h1 id="title">Welcome to unblocked games!</h1>
+    <div id="Game">
+      <!-- Game window is created here via Javascript -->
+    </div>
+    <div id="slideContainer">
+      <input type="range" min="0" max="255" value="0" id="redSlider" oninput="updateTheme()"><br><br>
+      <input type="range" min="0" max="255" value="0" id="greenSlider" oninput="updateTheme()"><br><br>
+      <input type="range" min="0" max="255" value="0" id="blueSlider" oninput="updateTheme()">
+    </div>
+    <div id="Buttons">
+      <button id="colorButton" onclick="randomTheme()">Change Theme</button>
+      <button type="button" onclick="changeGame('flash-tetris.swf')">Tetris</button><br>
+      <button type="button" onclick="changeGame('texas-holdem.swf')">Poker</button><br>
+      <button type="button" onclick="changeGame('doom.swf')">Doom</button><br>
+      <button type="button" onclick="changeGame('btd5.swf')">Bloons 5</button><br>
+      <button type="button" onclick="changeGame('isaac.swf')">The Binding of Isaac</button><br>
+      <button type="button" onclick="changeGame('happyWheels.swf')">Happy Wheels</button>
+    </div>
+    <div id="Labels">
+      <h3 id="redLabel" class="label">Red</h3>
+      <h3 id="greenLabel" class="label">Green</h3>
+      <h3 id="blueLabel" class="label">Blue</h3>
+    </div>
+    <div id="Contacts">
+      <h3 class="contact">Like the site? Any game requests?</h3><br>
+      <h3 class="contact">Contact Me: <strong>jacobryanangel@gmail.com</strong> </h3>
+    </div>
+  </body>
+</html>

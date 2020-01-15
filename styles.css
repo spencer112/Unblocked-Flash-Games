@@ -27,10 +27,6 @@ input{
   position:absolute;
   right:7.5%;
 }
-.label{
-  position:absolute;
-  right:16.4%;
-}
 .contact{
   position:absolute;
   font-size:17px;
@@ -43,22 +39,13 @@ input{
 .contact:last-of-type{
   top:35%;
 }
-#redLabel{
-  top:8%;
-}
-#greenLabel{
-  top:13%;
-}
-#blueLabel{
-  top:17.5%;
-}
 
-body, h1, h3, button, .label{
+body, h1, h3, button {
   color:white;
 }
 
 @media only screen and (max-width: 1360px) {
-  #colorButton, #slideContainer, #Labels, #Contacts{
+  #colorButton, #slideContainer, #Contacts{
     display:none;
   }
 }

@@ -20,6 +20,7 @@ let doom = "doom.swf";
 let btd5 = "btd5.swf";
 let isaac = "isaac.swf";
 let happyWheels = "happyWheels.swf";
+let strikeForce2 = "SFH2.swf";
 
 function changeGame(game){
   
@@ -76,6 +77,12 @@ function changeGame(game){
     newGame.setAttribute("width", "800px");
     newGame.style.left = "25%";
     title.innerHTML = "Happy Wheels";
+  }
+  else if(game == strikeForce2){
+    newGame.setAttribute("height", "650px");
+    newGame.setAttribute("width", "800px");
+    newGame.style.left = "25%";
+    title.innerHTML = "Strike Force Heros 2";
   }
   
   gameContainer.appendChild(newGame);
@@ -147,7 +154,6 @@ window.onload = function(){
   gameContainer = document.getElementById("Game");
   title = document.getElementById("title");
   elements = document.querySelectorAll("body, h1, h3, button");
-  console.log(window.innerWidth);
 };
 
 

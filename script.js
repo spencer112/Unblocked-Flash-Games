@@ -21,6 +21,8 @@ let btd5 = "btd5.swf";
 let isaac = "isaac.swf";
 let happyWheels = "happyWheels.swf";
 let strikeForce2 = "SFH2.swf";
+let crushTheCastle1 = "CTC1.swf";
+let crushTheCastle2 = "CTC2.swf";
 
 function changeGame(game){
   
@@ -83,6 +85,18 @@ function changeGame(game){
     newGame.setAttribute("width", "800px");
     newGame.style.left = "25%";
     title.innerHTML = "Strike Force Heros 2";
+  }
+  else if(game == crushTheCastle1){
+    newGame.setAttribute("height", "575px");
+    newGame.setAttribute("width", "790px");
+    newGame.style.left = "25%";
+    title.innerHTML = "Crush The Castle";
+  }
+  else if(game == crushTheCastle2){
+    newGame.setAttribute("height", "575px");
+    newGame.setAttribute("width", "790px");
+    newGame.style.left = "25%";
+    title.innerHTML = "Crush The Castle 2";
   }
   
   gameContainer.appendChild(newGame);
